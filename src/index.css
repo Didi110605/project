@@ -1,0 +1,151 @@
+
+@media (max-width: 1000px) {
+  .content{
+    max-width: 700px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body{
+  width: 100%;
+
+}
+.mainContent{
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 95%;
+}
+
+.header {
+  width: 98%;
+  height: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+
+
+
+.baner{
+  background-image: url('./images/home.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: column;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+
+  gap: 40px;
+  font-size: xx-large;
+}
+button{
+  color: #FFFFFF;
+  background-color: #339933;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  cursor: pointer; 
+
+}
+
+.menu_wrapper {
+  display: flex;
+  gap: 15px;
+  list-style-type: none;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
+  padding: 25px 40px;
+  background-color: gainsboro;
+  border-radius: 16px;
+  align-items: center;
+  gap: 15px;
+}
+
+.categoriesListHome{
+  .lineBtn{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    .line{
+      flex-grow: 1;
+      border: none;
+      height: 2px; 
+      background-color: #878787; 
+    }
+    button{
+      height: 30px;
+      background-color: #d1d1d1;
+      padding: 10px 20px; 
+      color: white; 
+      border: none; 
+      border-radius: 5px; 
+    }
+  }
+  
+}
+
+.saleList{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 16px;
+  img{
+    width: 9em;
+    border-radius: 5%;
+  }
+}
+
+.categoriesList{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 16px;
+  img{
+    width: 9em;
+    border-radius: 5%;
+  }
+}
+
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a.active {
+  color:#339933;
+}
+
+
+
+
+
+
+
+
+
+
+
+

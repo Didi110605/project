@@ -1,0 +1,63 @@
+.footer {
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: left;
+  }
+  
+  .footer h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .contact-grid {
+    display: grid;
+    grid-template-areas: 
+      "phone socials"
+      "address working-hours";
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-card {
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #333333;
+  }
+  
+  .contact-card p {
+    font-size: 16px;
+    color: #555555;
+    margin: 0;
+  }
+  
+  .contact-grid > div:nth-child(1) {
+    grid-area: phone;
+  }
+  
+  .contact-grid > div:nth-child(2) {
+    grid-area: address;
+  }
+  
+  .contact-grid > div:nth-child(3) {
+    grid-area: socials;
+  }
+  
+  .contact-grid > div:nth-child(4) {
+    grid-area: working-hours;
+  }
+  
+  .iframe-container {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
